@@ -1,0 +1,4 @@
+import { GLTFLoader } from 'GLTFLoader.js'
+const loader = new GLTFLoader();
+
+const loadedData = await loader.loadAsync('public/model.glb');
